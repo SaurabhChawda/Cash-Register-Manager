@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+:root {
+  --primary-color: #000000;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  width: 400px;
+  background-color:skyblue;
+  border-style:solid;
+  padding:1rem;
+  border-radius: 2rem;
+  margin:5rem auto;
+}
+
+/* Container */
+.container {
+  display: block;
+  width:100%;
+  margin: auto;
+  text-align: center;
+}
+
+.heading {
+  margin: auto;
+  color:white;
+  padding: 1rem;
+  width:100%
+
+}
+.input-label {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+.input {
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  width: 100%;
+  max-width:60%;
+}
+
+#Button{
+  background:red;
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  margin: auto;
+  display: block;
+}
+
+#error-message {
+  display: block;
+  font-size: larger;
+  margin: 1rem 0 0;
+}
+
+/* Table */
+th,
+td {
+  border: 2px solid var(--primary-color);
+  width: 20%;
+  border-collapse: collapse;
+  padding: 0.4rem;
+
+}

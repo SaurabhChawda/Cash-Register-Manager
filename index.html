@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mark10 - Cash Register Manager</title>
+    <link href="styles.css" rel="stylesheet"  />
+  </head>
+  <body >
+      <div class="container">
+        <h1 class="heading">Cash Register Manager</h1>
+        <p class="description">
+          Enter the bill amount and cash given by the customer and know minimum
+          number of notes to return.
+        </p>
+        <label class="input-label">Bill Amount:</label>
+        <input class="input" id="Amount" type="tel" />
+
+        <label class="input-label" >Cash Given:</label>
+        <input class="input" id="Cash" type="tel" />
+        
+        <button id="Button">Check</button>
+        <p id="error-message">
+            
+        </p>
+        <table>
+          <h2>Return Change </h2>
+          <tr>
+            <th>No.of Notes</th>
+            <td class="Notes"></td>
+            <td class="Notes"></td>
+            <td class="Notes"></td>
+            <td class="Notes"></td>
+            <td class="Notes"></td>
+            <td class="Notes"></td>
+            <td class="Notes"></td>
+            <td class="Notes"></td>
+          </tr>
+          <tr>
+            <th>Note</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>50</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+          </tr>
+        </table>
+        <script src="app.js" type="text/javascript"> </script>
+      </div>
+  </body>
+</html>
