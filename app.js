@@ -7,9 +7,11 @@ var noOfNotes = document.querySelectorAll(".Notes");
 var noteDatabase = [2000, 500, 100, 20, 10, 5, 1];
 
 function Checker(){
-      if (Cash.value >= Amount.value) {
+     var Cashvalue= Number(Cash.value);
+     var Amountvalue = Number(Amount.value) 
+      if (Cashvalue>= Amountvalue) {
         hideMessage();
-        var amountleft = Cash.value - Amount.value;
+        var amountleft = Cashvalue- Amountvalue;
         returnamount(amountleft);
       }
         else {
