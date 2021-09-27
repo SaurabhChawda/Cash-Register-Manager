@@ -8,7 +8,8 @@ var noteDatabase = [2000, 500, 100, 20, 10, 5, 1];
 
 function Checker(){
      var Cashvalue= Number(Cash.value);
-     var Amountvalue = Number(Amount.value) 
+     var Amountvalue = Number(Amount.value)
+     if(Amountvalue>0 && Cashvalue>0) {
       if (Cashvalue>= Amountvalue) {
         hideMessage();
         var amountleft = Cashvalue- Amountvalue;
@@ -16,6 +17,8 @@ function Checker(){
       }
         else {
         showMessage("Plese Check Your Bill Again !!");
+      }   } else{
+        showMessage("Plese Enter a Valid Value!!");
       }
 
 }
